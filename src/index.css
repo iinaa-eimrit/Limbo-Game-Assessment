@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: small tweaks for backdrop blur on non-supporting browsers */
+@supports not (backdrop-filter: blur(4px)) {
+  .backdrop-blur-md { background-color: rgba(255,255,255,0.08); }
+}
