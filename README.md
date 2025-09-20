@@ -47,7 +47,8 @@ npm run build
 
 # preview the production build
 npm run preview
-
+```
+---
 
 ## How to Play
 
